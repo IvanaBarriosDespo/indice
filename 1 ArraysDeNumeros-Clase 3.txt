@@ -1,0 +1,9 @@
+public class ArraysDeNumeros {
+    public static void main(String saludo[]) {
+    int[] numeros = new int[15]; //variable de numeros del 1 al 15
+    for(int i=0; i<numeros.length; i++){ //indica el limite de impresion a 15
+    numeros[i]=i+1; //condicion de impresion sumandole 1
+    System.out.println(numeros[i]); //imprime en la pantalla la variable numeros con su arrays asignada
+}
+}
+}

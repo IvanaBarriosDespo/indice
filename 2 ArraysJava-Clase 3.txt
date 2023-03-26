@@ -1,0 +1,9 @@
+public class Arrays {
+    public static void main(String saludo[]) {
+    int[] numeros = new int[15]; 
+    for(int i=0; i<numeros.length; i++){ 
+    numeros[i]=i+1; //indicamos la posicion del vector a imprimir
+    System.out.println(numeros[i]+5); //imprime en la pantalla el vector aumentando su valor en 5
+}
+}
+}

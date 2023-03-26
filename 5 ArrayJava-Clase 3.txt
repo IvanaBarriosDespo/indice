@@ -1,0 +1,12 @@
+public class Array {
+    public static void main(String[] args) {
+    String cursos[]= {"Diseño de interiores", "Sketchup", "Paisajismo"}; //vector cursos
+    int notas[]= {9,8,6}; //vector de notas siguiendo el orden de los cursos
+    System.out.println("CURSOS, NOTAS Y PROMEDIO"); //imprime en pantala el detalle requerido
+    int promedio= (notas[0]+ notas[1]+ notas[2])/3; //variable promedio indicando la suma y la division del vector
+    for (int i=0;i<cursos.length;i++){ //bucle de for metodo length indicando su limite
+    System.out.println(cursos [i]+ " "+ notas [i]);// imprime en pantalla los cursos y las notas
+    System.out.println ("Su promedio es:" +promedio); //imprime en pantalla la variable promedio
+    }
+    }
+}

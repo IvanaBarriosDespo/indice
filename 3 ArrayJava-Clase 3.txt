@@ -1,0 +1,8 @@
+public class Array {
+    public static void main(String saludo[]) {
+    int[] numeros = new int[] {1,2,3,4,5,6,60,8,9,10}; //vector segmentado en 10 resultados
+    //el numero 60 indica la posicion 6 porque se cuenta a partir del 0
+   
+    System.out.println(numeros[6]/3); //imprime en pantalla en valor 20, resulatado de la division 60/3
+}
+}

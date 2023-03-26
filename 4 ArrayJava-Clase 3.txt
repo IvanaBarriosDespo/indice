@@ -1,0 +1,10 @@
+public class Array {
+    public static void main(String[] args) {
+    String productos[]= {"Zapatillas", "medias", "camisetas","mochilas"}; //vector productos
+    double precios[]= {26500.50,3500.99,10150.99,15200.99}; //vector precios
+    System.out.println("Lista de productos con sus precios"); //imprime en pantala lista de productos
+    for (int i=0;i<productos.length;i++){ //bucle con metodo length
+    System.out.println("Articulo" + productos [i]+ "Precio: $" + precios [i]);// imprime en pantalla lista con detalles
+    }
+    }
+    }

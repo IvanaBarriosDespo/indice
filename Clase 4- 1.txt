@@ -1,0 +1,32 @@
+package com.ibd;
+
+import java.util.Scanner; 
+     /**
+      * A continuacion veremos un ejercicio de tipo escaner
+      */
+    public class Clase4 {  
+    	/**
+         * Crear un método que muestre los datos (nombre, apellido y la edad) 
+         * de un usuario, ingresado por teclado.  
+         */
+       public static void main(String[]args){ 
+    	   /**
+    	     * usamos el metodo Scanner y metodo String 
+    	     * primero declaramos las variables
+    	     */ 
+       
+      Scanner Datos = new Scanner(System.in); //Se crea un objeto Scanner
+    	  
+          String nombre ="Ivana";  
+          String apellido = "Barrios Despo"; 
+          int edad = 32; 
+   
+   
+	   System.out.println("El Nombre del Usuario es " + nombre.toUpperCase() +(" ")+ apellido.toUpperCase());
+	   System.out.println(" y su Edad es de " + edad + " años." );
+	   //se imprime en pantalla con salto de linea y cambiando a mayusculas los datos ingresados.
+	    
+      }
+	   	}  
+  
+	
